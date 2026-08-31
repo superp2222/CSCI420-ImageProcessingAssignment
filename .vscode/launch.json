@@ -1,0 +1,167 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Generate • Monkey channels",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageProcessingArt.py",
+      "args": ["monkey"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Generate • Elk contrast",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageProcessingArt.py",
+      "args": ["contrast"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Generate • Gamma correction",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageProcessingArt.py",
+      "args": ["gamma"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Generate • Lincoln blurs",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageProcessingArt.py",
+      "args": ["lincoln"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Generate • Astro edges (optional)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageProcessingArt.py",
+      "args": ["astro"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Generate • Signature thresholds",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageProcessingArt.py",
+      "args": ["signature"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Generate • Art",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageProcessingArt.py",
+      "args": ["art"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Grade • Monkey red",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageDiff.py",
+      "args": ["monkeyred.png", "CorrectImagesDONTALTER/monkeyred.png"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Grade • Monkey green",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageDiff.py",
+      "args": ["monkeygreen.png", "CorrectImagesDONTALTER/monkeygreen.png"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Grade • Monkey blue",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageDiff.py",
+      "args": ["monkeyblue.png", "CorrectImagesDONTALTER/monkeyblue.png"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Grade • Elk contrast",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageDiff.py",
+      "args": ["contrastelk.jpg", "CorrectImagesDONTALTER/contrastelk.jpg"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Grade • Gamma correction",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageDiff.py",
+      "args": ["gammafloat.jpg", "CorrectImagesDONTALTER/gammafloat.jpg"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Grade • Lincoln average blur",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageDiff.py",
+      "args": ["lincavg.jpg", "CorrectImagesDONTALTER/lincavg.jpg"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Grade • Lincoln Gaussian blur",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageDiff.py",
+      "args": ["lincgauss.jpg", "CorrectImagesDONTALTER/lincgauss.jpg"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Grade • Astro horizontal",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageDiff.py",
+      "args": ["astrohorizontal.jpg", "CorrectImagesDONTALTER/astrohorizontal.jpg"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Grade • Astro vertical",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageDiff.py",
+      "args": ["astrovertical.jpg", "CorrectImagesDONTALTER/astrovertical.jpg"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Grade • Signature threshold",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageDiff.py",
+      "args": ["SigThresh.png", "CorrectImagesDONTALTER/SigThresh.png"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Grade • Signature blurred threshold",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ImageDiff.py",
+      "args": ["SigBlurThresh.png", "CorrectImagesDONTALTER/SigBlurThresh.png"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
